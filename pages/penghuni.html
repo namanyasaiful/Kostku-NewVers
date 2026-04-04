@@ -7,6 +7,7 @@
     <!-- CSS -->
     <link rel="stylesheet" href="../css/style.css" />
     <link rel="stylesheet" href="../css/layout.css" />
+    <link rel="stylesheet" href="../css/page.css" />
   </head>
   <body>
     <div class="main">
@@ -17,12 +18,36 @@
       <div class="main-content">
         <!-- TOPBAR -->
         <div id="topbar"></div>
-        <div>
+
+        <!-- PENGHUNI PAGE -->
+        <main class="page penghuni-page" id="content">
+          <!-- HEADER PAGE -->
+          <header class="page-header">
+            <div class="page-title">
+              <h1>Data Penghuni</h1>
+              <span class="page-description"
+                >Kelola data penghuni dan akun login</span
+              >
+            </div>
+            <button class="btn btn-primary" id="addPenghuniBtn">
+              Tambah Penghuni
+            </button>
+          </header>
+
+          <!-- SEARCH BAR -->
+          <div class="search-box">
+            <img
+              src="../img/search-icon.png"
+              alt="Search Icon"
+              class="search-icon"
+            />
+            <div class="searchbar">
+              <input type="text" placeholder="Cari nama atau nomor kamar" />
+            </div>
+          </div>
+
           <!-- CONTENT -->
-          <main class="content" id="content">
-            <h1>Penghuni</h1>
-          </main>
-        </div>
+        </main>
       </div>
     </div>
 
