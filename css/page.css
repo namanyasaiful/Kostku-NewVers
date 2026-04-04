@@ -42,6 +42,10 @@
   cursor: pointer;
   transition: background-color 0.2s;
 }
+.btn:hover {
+  background-color: #e7eeff;
+  color: #4880ff;
+}
 
 /* SEARCH BAR */
 .searchbar {
