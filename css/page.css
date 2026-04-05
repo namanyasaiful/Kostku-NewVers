@@ -577,7 +577,6 @@ select.form-control {
     justify-content: space-between;
     align-items: center;
     padding: 10px 0;
-    border-bottom: 1px solid #eee;
     font-size: clamp(12px, 2vw, 14px);
 }
 
